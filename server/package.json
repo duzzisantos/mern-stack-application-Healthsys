@@ -1,0 +1,38 @@
+{
+  "name": "healthsys-server",
+  "version": "1.0.0",
+  "description": "healthsys backend ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mysql2",
+    "sequelize",
+    "backend"
+  ],
+  "author": "Duzie Uche-Abba",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "form-data": "^4.0.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.8",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "qs": "^6.10.3",
+    "sanitize-html": "^2.7.0",
+    "sequelize": "^6.14.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-security-node": "^1.1.1"
+  }
+}
